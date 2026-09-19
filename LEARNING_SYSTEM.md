@@ -1,12 +1,12 @@
 # Learning System
 
 ## What this repository is
-This is a portable, AI-assisted learning system for learning AI step by step. The original "90 Days" is the first foundation track. The repository is designed to remain useful after Day 90.
+This is a portable, AI-assisted learning system for learning AI step by step. The original "AI Learning Journey" is the first foundation track. The repository is designed to remain useful after the foundation track.
 
 ## Simplest way to use it
 With an AI that can access this GitHub repository, say:
 
-**Teach me today's AI lesson using my 90-Days-of-AI repository.**
+**Teach me today's AI lesson using my AI Learning Journey repository.**
 
 If the AI cannot access GitHub, give it `AGENT_SYSTEM_PROMPT.md`, `STATE.json`, and `CURRICULUM.json`.
 
@@ -29,7 +29,7 @@ The default session is 60–120 minutes. Short sessions are allowed. Longer 3-ho
 4. If a prerequisite is weak, review it before advancing.
 5. Projects should become progressively less copy-and-paste.
 6. Learn multiple providers and open-source concepts so knowledge remains portable.
-7. After Day 90, select the next track based on goals and demonstrated gaps.
+7. After the foundation track, select the next track based on goals and demonstrated gaps.
 
 ## Public repository
 Public viewers can read/fork public content, but they cannot push changes to this repository unless the owner explicitly grants them write access. Do not add unknown collaborators. Contributions, if ever enabled, should go through owner-reviewed pull requests.
