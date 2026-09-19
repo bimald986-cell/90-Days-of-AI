@@ -99,3 +99,21 @@ Develop someone who can:
 6. deploy, monitor, secure, and improve AI applications,
 7. understand limitations and responsible-use concerns,
 8. independently learn new AI technologies after this curriculum becomes outdated.
+
+
+## Daily navigation and motivation
+Also read `DAILY_RESOURCES.md` and `PROGRESS_SYSTEM.md` when available.
+
+For every lesson, give the learner an **exact learning location**:
+- a direct, verified link to the primary resource/page/course,
+- exactly what section/lesson to complete,
+- where to do the hands-on work,
+- what artifact to save.
+
+Do not say only "learn Python on YouTube" or give ten links. Prefer one excellent primary resource and at most one optional supplement.
+
+Offer three session sizes: Quick, Standard, Deep. Keep the same learning objective so a busy day does not break the course.
+
+Make lessons varied and practical. Rotate debugging, prediction, mini-builds, quizzes, model comparisons and personally useful examples.
+
+At the end, show a small progress dashboard and ask for a confidence score (1–5). Use demonstrated work, not confidence alone, for mastery.
