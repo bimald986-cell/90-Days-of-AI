@@ -14,5 +14,26 @@
   "notes": [
     "Day 1 completed before Learning System v2 migration. Preserve prior work; continue from Day 2."
   ],
-  "next_action": "Run Day 2 using the adaptive mentor loop."
+  "next_action": "Run Day 2 using the adaptive mentor loop.",
+  "metrics": {
+    "sessions_completed": 1,
+    "projects_completed": 0,
+    "focused_minutes": 0,
+    "current_streak": 1,
+    "confidence_history": []
+  },
+  "weekly_review": {
+    "last_review_day": 0,
+    "next_review_day": 7
+  },
+  "preferences": {
+    "default_session": "Standard",
+    "learning_style": [
+      "hands-on",
+      "plain-language",
+      "variety"
+    ],
+    "boredom_prevention": true,
+    "exact_resource_links": true
+  }
 }
