@@ -1,7 +1,18 @@
 {
+  "schema_version": 2,
+  "program": "AI Learning Journey",
+  "current_track": "Foundation 90",
   "current_day": 2,
-  "total_days": 90,
-  "last_updated": "2026-09-19",
   "status": "ACTIVE",
-  "completed_days": [1]
+  "completed_days": [
+    1
+  ],
+  "last_updated": "2026-09-19",
+  "mastery": {},
+  "current_project": null,
+  "weak_topics": [],
+  "notes": [
+    "Day 1 completed before Learning System v2 migration. Preserve prior work; continue from Day 2."
+  ],
+  "next_action": "Run Day 2 using the adaptive mentor loop."
 }
