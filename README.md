@@ -1,4 +1,4 @@
-# 🚀 AI Learning Journey — 90 Days and Beyond
+# 🚀 AI Learning Journey — AI Learning Journey and Beyond
 
 A public learning portfolio and portable AI tutoring system.
 
@@ -7,11 +7,11 @@ The name **90-Days-of-AI** marks the first foundation challenge. The goal is big
 ## How I learn
 My normal prompt to a capable AI is:
 
-> **Teach me today's AI lesson using my 90-Days-of-AI repository.**
+> **Teach me today's AI lesson using my AI Learning Journey repository.**
 
 The AI reads the learning state and curriculum, checks prior understanding, teaches the next concepts, gives hands-on work, evaluates mastery, and recommends the next step.
 
-## Foundation 90
+## Foundation
 1. Python & computational thinking
 2. Data literacy
 3. Machine learning foundations
