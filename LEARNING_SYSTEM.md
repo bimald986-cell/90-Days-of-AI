@@ -33,3 +33,17 @@ The default session is 60–120 minutes. Short sessions are allowed. Longer 3-ho
 
 ## Public repository
 Public viewers can read/fork public content, but they cannot push changes to this repository unless the owner explicitly grants them write access. Do not add unknown collaborators. Contributions, if ever enabled, should go through owner-reviewed pull requests.
+
+
+## Daily experience
+Every day's mentor response should tell you exactly:
+1. what you are learning,
+2. why it matters,
+3. the direct place/link and exact section to learn it,
+4. where to practice it,
+5. what to build/save,
+6. how completion will be checked.
+
+Choose **Quick (25–35 min)**, **Standard (60–90 min)** or **Deep (120–180 min)** without losing your place in the curriculum.
+
+See `DAILY_RESOURCES.md` for trusted learning locations and `PROGRESS_SYSTEM.md` for tracking, weekly reviews and anti-boredom rules.
