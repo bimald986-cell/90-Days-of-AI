@@ -1,0 +1,89 @@
+{
+  "month_1": {
+    "title": "Foundation – Python, Data Handling & AI Core",
+    "phases": [
+      {
+        "days": "1-7",
+        "topic": "Python Basics & Google Colab",
+        "focus": "Syntax, variables, lists, dictionaries, conditionals, functions",
+        "goal": "Write clean functions and process data structures inside Google Colab without assistance."
+      },
+      {
+        "days": "8-14",
+        "topic": "Data Manipulation with Pandas & NumPy",
+        "focus": "Arrays, loading CSVs, cleaning datasets, filtering data, Matplotlib",
+        "goal": "Import a raw dataset and output clean statistical summaries and charts."
+      },
+      {
+        "days": "15-22",
+        "topic": "Machine Learning Fundamentals",
+        "focus": "Linear regression, decision trees, accuracy metrics, scikit-learn",
+        "goal": "Train a predictive decision-tree model in Python on a real dataset and measure its accuracy."
+      },
+      {
+        "days": "23-30",
+        "topic": "Applied Prompting & Foundation Models",
+        "focus": "Tokens, context windows, temperature, zero/few-shot prompts, JSON output",
+        "goal": "Build a Python script that takes user input and returns validated JSON from an LLM."
+      }
+    ]
+  },
+  "month_2": {
+    "title": "Developer Track – LLM Systems, APIs & RAG",
+    "phases": [
+      {
+        "days": "31-37",
+        "topic": "LLM APIs & SDKs",
+        "focus": "OpenAI/Gemini SDKs, API keys, streaming, error handling",
+        "goal": "Build a command-line interface chatbot in Python with conversation history saved in memory."
+      },
+      {
+        "days": "38-45",
+        "topic": "Embeddings & Vector Databases",
+        "focus": "Vector embeddings, cosine similarity, ChromaDB, FAISS",
+        "goal": "Convert text documents into numerical embeddings and perform semantic search."
+      },
+      {
+        "days": "46-52",
+        "topic": "Retrieval-Augmented Generation (RAG)",
+        "focus": "Document context, PDFs, LangChain, LlamaIndex",
+        "goal": "Build a script that reads a custom PDF and answers questions strictly based on its contents."
+      },
+      {
+        "days": "53-60",
+        "topic": "UI Deployment & First Complete App",
+        "focus": "Streamlit interfaces, state management, Hugging Face Spaces",
+        "goal": "Deploy a live web application hosting your custom document Q&A bot."
+      }
+    ]
+  },
+  "month_3": {
+    "title": "Applied Track – AI Agents, Automation & No-Code Systems",
+    "phases": [
+      {
+        "days": "61-68",
+        "topic": "Function Calling & AI Tools",
+        "focus": "JSON function schemas, tool orchestration, multi-step execution",
+        "goal": "Build a Python agent that fetches live weather via an external API."
+      },
+      {
+        "days": "69-76",
+        "topic": "Autonomous AI Agents & LangGraph",
+        "focus": "ReAct loops, agentic planning, state persistence",
+        "goal": "Build an autonomous research agent that searches the web, summarizes, and drafts reports."
+      },
+      {
+        "days": "77-83",
+        "topic": "No-Code Automation & Multi-Tool Systems",
+        "focus": "Webhooks, Make.com/Zapier pipelines, parsing triggers",
+        "goal": "Build an automated pipeline monitoring emails, performing sentiment analysis, and updating a database."
+      },
+      {
+        "days": "84-90",
+        "topic": "Integrated Dual-Track Capstone Project",
+        "focus": "Automated Customer Support & Insights Engine",
+        "goal": "Build a Streamlit RAG dashboard with function calling connected to webhook ticket routing."
+      }
+    ]
+  }
+}
