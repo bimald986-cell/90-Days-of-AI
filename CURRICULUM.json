@@ -1,89 +1,248 @@
 {
-  "month_1": {
-    "title": "Foundation – Python, Data Handling & AI Core",
-    "phases": [
-      {
-        "days": "1-7",
-        "topic": "Python Basics & Google Colab",
-        "focus": "Syntax, variables, lists, dictionaries, conditionals, functions",
-        "goal": "Write clean functions and process data structures inside Google Colab without assistance."
-      },
-      {
-        "days": "8-14",
-        "topic": "Data Manipulation with Pandas & NumPy",
-        "focus": "Arrays, loading CSVs, cleaning datasets, filtering data, Matplotlib",
-        "goal": "Import a raw dataset and output clean statistical summaries and charts."
-      },
-      {
-        "days": "15-22",
-        "topic": "Machine Learning Fundamentals",
-        "focus": "Linear regression, decision trees, accuracy metrics, scikit-learn",
-        "goal": "Train a predictive decision-tree model in Python on a real dataset and measure its accuracy."
-      },
-      {
-        "days": "23-30",
-        "topic": "Applied Prompting & Foundation Models",
-        "focus": "Tokens, context windows, temperature, zero/few-shot prompts, JSON output",
-        "goal": "Build a Python script that takes user input and returns validated JSON from an LLM."
-      }
-    ]
-  },
-  "month_2": {
-    "title": "Developer Track – LLM Systems, APIs & RAG",
-    "phases": [
-      {
-        "days": "31-37",
-        "topic": "LLM APIs & SDKs",
-        "focus": "OpenAI/Gemini SDKs, API keys, streaming, error handling",
-        "goal": "Build a command-line interface chatbot in Python with conversation history saved in memory."
-      },
-      {
-        "days": "38-45",
-        "topic": "Embeddings & Vector Databases",
-        "focus": "Vector embeddings, cosine similarity, ChromaDB, FAISS",
-        "goal": "Convert text documents into numerical embeddings and perform semantic search."
-      },
-      {
-        "days": "46-52",
-        "topic": "Retrieval-Augmented Generation (RAG)",
-        "focus": "Document context, PDFs, LangChain, LlamaIndex",
-        "goal": "Build a script that reads a custom PDF and answers questions strictly based on its contents."
-      },
-      {
-        "days": "53-60",
-        "topic": "UI Deployment & First Complete App",
-        "focus": "Streamlit interfaces, state management, Hugging Face Spaces",
-        "goal": "Deploy a live web application hosting your custom document Q&A bot."
-      }
-    ]
-  },
-  "month_3": {
-    "title": "Applied Track – AI Agents, Automation & No-Code Systems",
-    "phases": [
-      {
-        "days": "61-68",
-        "topic": "Function Calling & AI Tools",
-        "focus": "JSON function schemas, tool orchestration, multi-step execution",
-        "goal": "Build a Python agent that fetches live weather via an external API."
-      },
-      {
-        "days": "69-76",
-        "topic": "Autonomous AI Agents & LangGraph",
-        "focus": "ReAct loops, agentic planning, state persistence",
-        "goal": "Build an autonomous research agent that searches the web, summarizes, and drafts reports."
-      },
-      {
-        "days": "77-83",
-        "topic": "No-Code Automation & Multi-Tool Systems",
-        "focus": "Webhooks, Make.com/Zapier pipelines, parsing triggers",
-        "goal": "Build an automated pipeline monitoring emails, performing sentiment analysis, and updating a database."
-      },
-      {
-        "days": "84-90",
-        "topic": "Integrated Dual-Track Capstone Project",
-        "focus": "Automated Customer Support & Insights Engine",
-        "goal": "Build a Streamlit RAG dashboard with function calling connected to webhook ticket routing."
-      }
-    ]
-  }
+  "program": "AI Learning Journey",
+  "repository_name": "90-Days-of-AI",
+  "philosophy": "90 days is Foundation Track 1, not the end. Advance by demonstrated mastery, with ongoing tracks added as the field evolves.",
+  "foundation_90_days": [
+    {
+      "days": "1-10",
+      "topic": "Python & computational thinking",
+      "focus": [
+        "Colab",
+        "variables/types",
+        "conditionals",
+        "loops",
+        "functions",
+        "lists/dicts",
+        "files",
+        "errors/debugging",
+        "modules",
+        "mini-project"
+      ],
+      "milestone": "Build and explain a small Python program without copying a full solution."
+    },
+    {
+      "days": "11-18",
+      "topic": "Data literacy with NumPy, Pandas & visualization",
+      "focus": [
+        "arrays",
+        "dataframes",
+        "CSV/JSON",
+        "cleaning",
+        "filtering",
+        "grouping",
+        "statistics",
+        "Matplotlib"
+      ],
+      "milestone": "Take a messy dataset from load to cleaned analysis and explain the choices."
+    },
+    {
+      "days": "19-28",
+      "topic": "Machine learning foundations",
+      "focus": [
+        "features/labels",
+        "train/test",
+        "regression",
+        "classification",
+        "trees",
+        "metrics",
+        "overfitting",
+        "preprocessing",
+        "scikit-learn",
+        "model comparison"
+      ],
+      "milestone": "Train, evaluate and critique a small supervised ML model."
+    },
+    {
+      "days": "29-36",
+      "topic": "How modern generative AI works",
+      "focus": [
+        "neural-network intuition",
+        "transformers",
+        "tokens",
+        "embeddings",
+        "attention",
+        "training vs inference",
+        "context",
+        "sampling",
+        "multimodality"
+      ],
+      "milestone": "Explain an LLM pipeline in plain language and demonstrate token/context behavior."
+    },
+    {
+      "days": "37-44",
+      "topic": "Prompting, structured outputs & evaluation",
+      "focus": [
+        "instructions",
+        "examples",
+        "constraints",
+        "structured JSON",
+        "prompt injection basics",
+        "hallucination",
+        "rubrics",
+        "test cases",
+        "model comparison"
+      ],
+      "milestone": "Create and evaluate a reliable prompt workflow rather than judging one impressive response."
+    },
+    {
+      "days": "45-53",
+      "topic": "LLM APIs & application engineering",
+      "focus": [
+        "SDKs/HTTP",
+        "secrets",
+        "messages/state",
+        "streaming",
+        "structured output",
+        "tool/function calling",
+        "errors/retries",
+        "cost/latency",
+        "logging"
+      ],
+      "milestone": "Build a provider-aware command-line AI application with safe secret handling."
+    },
+    {
+      "days": "54-62",
+      "topic": "Embeddings, retrieval & RAG",
+      "focus": [
+        "embedding intuition",
+        "similarity",
+        "chunking",
+        "metadata",
+        "vector search",
+        "hybrid retrieval",
+        "grounding",
+        "citations",
+        "RAG evaluation"
+      ],
+      "milestone": "Build a document Q&A system and test whether answers are actually grounded."
+    },
+    {
+      "days": "63-72",
+      "topic": "Agents, tools & workflows",
+      "focus": [
+        "agent vs workflow",
+        "tool schemas",
+        "planning",
+        "state",
+        "memory",
+        "human approval",
+        "MCP concepts",
+        "agent evaluation",
+        "security",
+        "LangGraph or equivalent"
+      ],
+      "milestone": "Build a tool-using workflow/agent with explicit guardrails and tests."
+    },
+    {
+      "days": "73-80",
+      "topic": "Automation & integrations",
+      "focus": [
+        "webhooks",
+        "REST APIs",
+        "scheduled jobs",
+        "email/files/spreadsheets",
+        "Make/Zapier/n8n concepts",
+        "permissions",
+        "idempotency",
+        "failure recovery"
+      ],
+      "milestone": "Automate a useful multi-step workflow with safe human checkpoints."
+    },
+    {
+      "days": "81-90",
+      "topic": "Production capstone",
+      "focus": [
+        "problem framing",
+        "architecture",
+        "UI",
+        "testing",
+        "evaluation dataset",
+        "privacy/security",
+        "deployment",
+        "monitoring",
+        "documentation",
+        "demo/retrospective"
+      ],
+      "milestone": "Ship and explain a complete AI application with tests, evaluation and documentation."
+    }
+  ],
+  "ongoing_tracks": [
+    {
+      "track": "A",
+      "title": "AI Engineering",
+      "topics": [
+        "advanced RAG",
+        "search/reranking",
+        "agent architectures",
+        "MCP/tool ecosystems",
+        "observability",
+        "evals",
+        "security",
+        "performance/cost"
+      ]
+    },
+    {
+      "track": "B",
+      "title": "Machine Learning & Deep Learning",
+      "topics": [
+        "math foundations",
+        "PyTorch",
+        "neural networks",
+        "CNNs",
+        "transformers from deeper principles",
+        "fine-tuning",
+        "experimentation"
+      ]
+    },
+    {
+      "track": "C",
+      "title": "Data & MLOps",
+      "topics": [
+        "SQL",
+        "data pipelines",
+        "Docker",
+        "cloud fundamentals",
+        "model serving",
+        "CI/CD",
+        "monitoring",
+        "versioning"
+      ]
+    },
+    {
+      "track": "D",
+      "title": "Multimodal & Generative Media",
+      "topics": [
+        "vision",
+        "speech",
+        "image generation",
+        "video",
+        "multimodal retrieval",
+        "responsible media generation"
+      ]
+    },
+    {
+      "track": "E",
+      "title": "AI Product & Automation",
+      "topics": [
+        "workflow design",
+        "no-code/low-code",
+        "product discovery",
+        "human-in-the-loop",
+        "business process automation",
+        "ROI and reliability"
+      ]
+    },
+    {
+      "track": "F",
+      "title": "Research & Frontier Learning",
+      "topics": [
+        "reading papers",
+        "reproducing results",
+        "benchmarks",
+        "open-source models",
+        "new architectures",
+        "continuous technology updates"
+      ]
+    }
+  ]
 }
