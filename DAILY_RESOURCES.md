@@ -47,5 +47,5 @@ Use official docs for REST/webhooks and the selected automation platform. Prefer
 ### Days 81–90 · Capstone
 Resources depend on the selected project. Prefer official docs and the learner's existing project requirements. Every capstone week includes testing, evaluation, privacy/security, documentation and a demo.
 
-## After Day 90
+## After the foundation track
 At the start of each advanced module, the mentor must create/update a resource map from current official sources because AI tooling changes quickly.
