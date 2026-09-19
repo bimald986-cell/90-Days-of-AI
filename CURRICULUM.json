@@ -1,8 +1,8 @@
 {
   "program": "AI Learning Journey",
   "repository_name": "90-Days-of-AI",
-  "philosophy": "90 days is Foundation Track 1, not the end. Advance by demonstrated mastery, with ongoing tracks added as the field evolves.",
-  "foundation_90_days": [
+  "philosophy": "The foundation track is the beginning, not the end. Advance by demonstrated mastery, with ongoing tracks added as the field evolves.",
+  "foundation": [
     {
       "days": "1-10",
       "topic": "Python & computational thinking",
