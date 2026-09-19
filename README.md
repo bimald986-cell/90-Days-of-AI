@@ -1,19 +1,42 @@
-# 🚀 90 Days of AI: Zero to AI Developer & Automation Engineer
+# 🚀 AI Learning Journey — 90 Days and Beyond
 
-Welcome to my 90-day AI learning repository! This project tracks my daily hands-on progress as I master Python, Data Science, Large Language Models (LLMs), AI Agents, and No-Code Automation.
+A public learning portfolio and portable AI tutoring system.
 
-## 📌 Learning Roadmap
+The name **90-Days-of-AI** marks the first foundation challenge. The goal is bigger: learn AI systematically, build real projects, measure mastery, and continue into advanced AI engineering, machine learning, automation, multimodal systems and research.
 
-- **Month 1: Foundation** | Python, Pandas, Machine Learning, & Prompt Engineering
-- **Month 2: Developer Track** | LLM SDKs, Vector Databases, RAG Systems, & Streamlit UI
-- **Month 3: Applied Track** | AI Agents, Function Calling, LangGraph, & Automated Pipelines
+## How I learn
+My normal prompt to a capable AI is:
+
+> **Teach me today's AI lesson using my 90-Days-of-AI repository.**
+
+The AI reads the learning state and curriculum, checks prior understanding, teaches the next concepts, gives hands-on work, evaluates mastery, and recommends the next step.
+
+## Foundation 90
+1. Python & computational thinking
+2. Data literacy
+3. Machine learning foundations
+4. Modern generative AI foundations
+5. Prompting, structured outputs & evaluation
+6. LLM APIs & application engineering
+7. Embeddings, retrieval & RAG
+8. Agents, tools & workflows
+9. Automation & integrations
+10. Production capstone
+
+After the foundation, learning continues through advanced tracks in AI engineering, deep learning, MLOps, multimodal AI, automation/product work, and frontier research.
+
+## Key files
+- `LEARNING_SYSTEM.md` — how to use the course.
+- `AGENT_SYSTEM_PROMPT.md` — portable mentor instructions for ChatGPT, Gemini, Grok, Claude, or another capable AI.
+- `CURRICULUM.json` — curriculum map.
+- `STATE.json` — current progress.
+- notebooks/projects — evidence of hands-on learning.
+
+## Learning principles
+Understanding before speed · build every week · test instead of guessing · learn concepts beyond one vendor · use AI as a teacher, not a copy machine · never commit secrets.
+
+## Current status
+The journey is active. Day 1 is preserved; Learning System v2 continues from Day 2.
 
 ---
-
-### 📂 Directory Structure
-
-- `Month-1-Foundation/`: Daily notebooks and Python fundamentals
-- `Month-2-Developer-Track/`: RAG applications and API integrations
-- `Month-3-Applied-Track/`: Autonomous AI agents and automated workflows
-
-*Updated daily via Google Colab.*
+This repository is public for viewing and learning. Only authorized collaborators can directly modify it.
