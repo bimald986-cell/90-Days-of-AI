@@ -1,7 +1,7 @@
 {
-  "current_day": 3,
+  "current_day": 7,
   "total_days": 90,
-  "last_updated": "2026-09-20",
+  "last_updated": "2026-09-25",
   "status": "ACTIVE",
-  "completed_days": [1, 2]
+  "completed_days": [1, 2, 3, 4, 5, 6]
 }
