@@ -1,0 +1,32 @@
+name: Curriculum Contract Checks
+
+on:
+  push:
+    paths:
+      - 'README.md'
+      - 'CURRICULUM.json'
+      - 'STATE.json'
+      - 'tests/**'
+      - '.github/workflows/curriculum-contract.yml'
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'CURRICULUM.json'
+      - 'STATE.json'
+      - 'tests/**'
+      - '.github/workflows/curriculum-contract.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  curriculum-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate curriculum and saved progress
+        run: python -m unittest discover -s tests -v
